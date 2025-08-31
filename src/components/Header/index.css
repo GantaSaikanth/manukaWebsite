@@ -1,0 +1,116 @@
+.navbar-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+.cart-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+
+}
+.cart-icon {
+    height: 30px;
+    width: 30px;
+    margin-left: 5px;
+}
+.icons {
+    height: 15px;
+    width: 15px;
+    margin-left: 10px;
+}
+.website-icon-image {
+    height: 50px;
+    width: 100px;
+}
+.navbar-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.big-size-windows-navbar {
+    display: none;
+}
+@media screen and (min-width: 768px) {
+    .navbar-container {
+        display: none;
+    }
+    .cart-container-big {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin-left: 10px;
+
+    }
+    .cart-icon {
+        height: 30px;
+        width: 30px;
+        margin-left: 10px;
+        align-self: center;
+    }
+    .icons {
+        height: 20px;
+        width: 20px;
+        margin-left: 10px;
+    }
+    .website-icon-image {
+        height: 70px;
+        width: 150px;
+    }
+    .which-manuka {
+        border: 1px solid #313131;
+        font-family: 'Segoe UI';
+        border-radius: 20px;
+        color: #313131;
+        padding: 10px;
+        width: 250px;
+        margin: 10px;
+    }
+    .button {
+        font-family: 'Segoe UI';
+        border: none;
+        color: #313131;
+        padding: 10px;
+        background-color: transparent;
+        cursor: pointer;
+        margin-left: 20px;
+        font-family: Segoe UI;
+        font-weight: 400;
+        font-style: Regular;
+        font-size: 13px;
+        line-height: 14.3px;
+        letter-spacing: 1.95px;
+        vertical-align: middle;
+        text-transform: uppercase;
+
+    }
+    .big-size-windows-navbar {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        margin-right: 10px;
+        margin-bottom: 10px;
+        align-items: center;
+    }
+}
+.navbar-extender {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
+.extended-button {
+    background-color: transparent;
+    outline: none;
+    cursor: pointer;
+    border: none;
+}
